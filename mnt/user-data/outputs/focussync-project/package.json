@@ -1,0 +1,17 @@
+{
+  "name": "focussync",
+  "version": "1.0.0",
+  "description": "Anonymous accountability partner sessions",
+  "private": true,
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "start:server": "cd server && npm start",
+    "build:client": "cd client && npm run build",
+    "setup": "npm run install:all && cp server/.env.example server/.env && cp client/.env.example client/.env"
+  },
+  "keywords": ["productivity", "focus", "pomodoro", "socket.io", "real-time"],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+/* @tailwind directives are valid Tailwind CSS syntax */
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind base;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind components;
+/* stylelint-disable-next-line at-rule-no-unknown */
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.mono {
+  font-family: 'Space Mono', monospace;
+}
